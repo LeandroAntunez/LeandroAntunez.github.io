@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background-color: #111;
+    color: #fff;
+    padding: 20px 23px;
+    justify-content: center;
+}
+footer span a {
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover {
+    text-decoration: underline;
+}
