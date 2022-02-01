@@ -40,6 +40,9 @@ section {
     background: #fff;
     transform: translateX(-50%);
 }
+.info {
+    z-index: 3;
+}
 @media (max-width: 970px) {
     .max-width {
         padding: 0 23px;
