@@ -1,23 +1,13 @@
 import React, { Component } from 'react';
 import Carousel from 'react-elastic-carousel';
+import './Skills.css';
 import './CarouselSkills.css';
 
 class CarouselSkills extends Component {
     state = {
         items: [
             {
-                id: 1, title: 'MERN Stack',
-                skills:
-                    [
-                        { name: 'MongoDB', percentage: 60 },
-                        { name: 'Express', percentage: 70 },
-                        { name: 'React', percentage: 80 },
-                        { name: 'NodeJs', percentage: 80 }
-                    ]
-            },
-
-            {
-                id: 2, title: 'Desarrollador Frontend',
+                id: 1, title: 'Desarrollador Frontend',
                 skills:
                     [
                         { name: 'HTML', percentage: 80 },
@@ -29,7 +19,7 @@ class CarouselSkills extends Component {
             },
 
             {
-                id: 3, title: 'Desarrollador Backend',
+                id: 2, title: 'Desarrollador Backend',
                 skills:
                     [
                         { name: 'MySQL', percentage: 70 },
@@ -37,6 +27,17 @@ class CarouselSkills extends Component {
                         { name: 'Ruby - on Rails', percentage: 50 },
                         { name: 'Python - Django', percentage: 50 },
                         { name: 'ExpressJS', percentage: 70 }
+                    ]
+            },
+
+            {
+                id: 3, title: 'MERN Stack',
+                skills:
+                    [
+                        { name: 'MongoDB', percentage: 60 },
+                        { name: 'Express', percentage: 70 },
+                        { name: 'React', percentage: 80 },
+                        { name: 'NodeJs', percentage: 80 }
                     ]
             },
 
@@ -61,7 +62,7 @@ class CarouselSkills extends Component {
                 <Carousel itemsToShow={1}>
                     {items.map(item =>
                         <div key={item.id}>
-                            <h2>{item.title}</h2>
+                            <h2 className='text'>{item.title}</h2>
                             <ul>
                                 {item.skills.map(s =>
                                     <div class="bars">

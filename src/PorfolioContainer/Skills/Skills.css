@@ -34,7 +34,7 @@ section {
     position: absolute;
     bottom: -12px;
     left: 50%;
-    font-size: 20px;
+    font-size: 16px;
     color: crimson;
     padding: 5px;
     background: #fff;
@@ -43,23 +43,7 @@ section {
 .info {
     z-index: 3;
 }
-@media (max-width: 970px) {
-    .max-width {
-        padding: 0 23px;
-    }
-    .skills .skills-content .column {
-        width: 100%;
-        margin-bottom: 35px;
-    }
-}
-@media (max-width: 690px) {
-    .max-width {
-        padding: 0 23px;
-    }
-    .skills .skills-content .column {
-        width: 100%;
-    }
-}
+
 .skills .skills-content .column {
     width: calc(50% - 30px);
 }
@@ -114,4 +98,21 @@ section {
     left: 0;
     top: 0;
     background: crimson;
+}
+@media (max-width: 970px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    .skills .skills-content .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    .skills .skills-content .column {
+        width: 100%;
+    }
 }
