@@ -1,0 +1,54 @@
+.skills-content .right .mongodb::before {
+    width: 60%;
+}
+.skills-content .right .express::before {
+    width: 70%;
+}
+.skills-content .right .react::before {
+    width: 80%;
+}
+.skills-content .right .nodejs::before {
+    width: 80%;
+}
+
+.skills-content .right .html::before {
+    width: 80%;
+}
+.skills-content .right .bootstrap::before {
+    width: 60%;
+}
+.skills-content .right .css::before {
+    width: 70%;
+}
+.skills-content .right .javascript::before {
+    width: 90%;
+}
+
+.skills-content .right .mysql::before {
+    width: 70%;
+}
+.skills-content .right .ruby::before {
+    width: 50%;
+}
+.skills-content .right .python::before {
+    width: 50%;
+}
+.skills-content .right .expressjs::before {
+    width: 70%;
+}
+
+.skills-content .right .unit::before {
+    width: 90%;
+}
+.skills-content .right .inglés::before {
+    width: 70%;
+}
+.skills-content .right .poo::before {
+    width: 80%;
+}
+.skills-content .right .patrones::before {
+    width: 75%;
+}
+.skills-content .right .git::before {
+    width: 80%;
+}

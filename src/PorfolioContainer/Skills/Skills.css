@@ -30,7 +30,7 @@ section {
     transform: translateX(-50%);
 }
 .skills .title::after {
-    content: "what i know";
+    content: "Lo que conozco";
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -114,16 +114,4 @@ section {
     left: 0;
     top: 0;
     background: crimson;
-}
-.skills-content .right .html::before {
-    width: 90%;
-}
-.skills-content .right .css::before {
-    width: 50%;
-}
-.skills-content .right .javascript::before {
-    width: 80%;
-}
-.skills-content .right .php::before {
-    width: 40%;
 }
