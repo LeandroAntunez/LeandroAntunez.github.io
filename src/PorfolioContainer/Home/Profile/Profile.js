@@ -59,12 +59,8 @@ function Profile(props) {
                             </span>
                         </div>
                         <div className='profile-options'>
-                            <button className='btn primary-btn'>
-                                {""}
-                                Hire me{" "}
-                            </button>
                             <a href='Leandro-Antúnez-CV.pdf' download="Leandro-Antunez-CV.pdf">
-                                <button className='btn highlighted-btn'>Get Resume</button>
+                                <button className='btn highlighted-btn'>Obtener CV</button>
                             </a>
                         </div>
                     </div>
