@@ -8,19 +8,30 @@
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    background: crimson;
     font-family: 'Ubuntu', sans-serif;
     z-index: 99;
+    background: rgb(27, 27, 27);
 }
 
 .navbar .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: rgb(27, 27, 27);
+}
+
+.menu li {
+    background: rgb(27, 27, 27);
 }
 
 .logo {
     padding-right: 100px;
+    background: rgb(27, 27, 27);
+}
+
+.logo span {
+    color: crimson;
+    background: rgb(27, 27, 27);
 }
 
 .navbar a {
@@ -28,6 +39,7 @@
     font-size: 35px;
     font-weight: 600;
     padding: 0px 10px 0px 10px;
+    background: rgb(27, 27, 27);
 }
 
 .navbar .menu li a {
@@ -35,6 +47,7 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    background: rgb(27, 27, 27);
 }
 
 /* menu btn styling */
@@ -42,13 +55,13 @@
     color: #fff;
     font-size: 23px;
     cursor: pointer;
+    background: rgb(27, 27, 27);
 }
 
 .scroll-up-btn {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: green;
     right: 30px;
     bottom: 10px;
     text-align: center;

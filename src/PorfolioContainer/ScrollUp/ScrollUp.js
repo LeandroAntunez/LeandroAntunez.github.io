@@ -1,5 +1,5 @@
 import React from 'react';
-import {CircleArrow as ScrollUpButton} from 'react-scroll-up-button';
+import ScrollUpButton from 'react-scroll-up-button';
 import './ScrollUp.css';
 
 class ScrollUp extends React.Component {

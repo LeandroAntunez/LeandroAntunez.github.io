@@ -1,3 +1,7 @@
 .scrollup {
     z-index: 999;
+    color: white;
+    background-color: white;
+    background: white;
+    box-shadow: 1px 1px 1px 1px (--white);
 }

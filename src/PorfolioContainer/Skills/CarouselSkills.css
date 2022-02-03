@@ -1,12 +1,19 @@
+.subtitle {
+    margin-bottom: 30px;
+}
+
 .skills-content .right .mongodb::before {
     width: 60%;
 }
+
 .skills-content .right .express::before {
     width: 70%;
 }
+
 .skills-content .right .react::before {
     width: 80%;
 }
+
 .skills-content .right .nodejs::before {
     width: 80%;
 }
@@ -14,12 +21,15 @@
 .skills-content .right .html::before {
     width: 80%;
 }
+
 .skills-content .right .bootstrap::before {
     width: 60%;
 }
+
 .skills-content .right .css::before {
     width: 70%;
 }
+
 .skills-content .right .javascript::before {
     width: 90%;
 }
@@ -27,12 +37,15 @@
 .skills-content .right .mysql::before {
     width: 70%;
 }
+
 .skills-content .right .ruby::before {
     width: 50%;
 }
+
 .skills-content .right .python::before {
     width: 50%;
 }
+
 .skills-content .right .expressjs::before {
     width: 70%;
 }
@@ -40,15 +53,45 @@
 .skills-content .right .unit::before {
     width: 90%;
 }
+
 .skills-content .right .inglés::before {
     width: 70%;
 }
+
 .skills-content .right .poo::before {
     width: 80%;
 }
+
 .skills-content .right .patrones::before {
     width: 75%;
 }
+
 .skills-content .right .git::before {
     width: 80%;
+}
+
+/* Arrows */
+.rec.rec-arrow {
+    border-radius: 20%;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 1px 3px crimson;
+}
+
+.rec.rec-arrow:hover {
+    background-color: crimson;
+    color: white;
+    box-shadow: white;
+    border-radius: 50%;
+}
+
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px lightgrey;
 }

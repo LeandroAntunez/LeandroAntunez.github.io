@@ -58,11 +58,10 @@ class CarouselSkills extends Component {
         const { items } = this.state;
 
         return (
-            <div>
                 <Carousel itemsToShow={1}>
                     {items.map(item =>
                         <div>
-                            <h2 className='text'>{item.title}</h2>
+                            <h2 className='subtitle'>{item.title}</h2>
                                 {item.skills.map(s =>
                                     <div className="bars">
                                         <div className='info'>
@@ -76,7 +75,6 @@ class CarouselSkills extends Component {
                     )
                     }
                 </Carousel>
-            </div>
         );
     }
 }

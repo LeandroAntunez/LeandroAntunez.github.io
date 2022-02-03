@@ -10,24 +10,26 @@ class Skills extends React.Component {
                         <h2 className="title">Mis Habilidades</h2>
                         <div className="skills-content">
                             <div className='column left'>
-                                <h2>Habilidades blandas.</h2>
-                                <p>
-                                    <ul className='list-group'>
-                                        <li className='list-group-item'>Resolución de problemas.</li>
-                                        <li className='list-group-item'>Adaptabilidad.</li>
-                                        <li className='list-group-item'>Trabajo en equipo.</li>
-                                        <li className='list-group-item'>Gestión de conflictos.</li>
-                                        <li className='list-group-item'>Deseos de aprender.</li>
-                                    </ul>
-                                </p>
+                                <div>
+                                    <h2>Habilidades blandas</h2>
+                                    <p>
+                                        <ul className='soft-skill-list'>
+                                            <li className='soft-skill-item'>Resolución de problemas.</li>
+                                            <li className='soft-skill-item'>Adaptabilidad.</li>
+                                            <li className='soft-skill-item'>Trabajo en equipo.</li>
+                                            <li className='soft-skill-item'>Gestión de conflictos.</li>
+                                            <li className='soft-skill-item'>Deseos de aprender.</li>
+                                        </ul>
+                                    </p>
+                                </div>
                             </div>
                             <div className="column right">
                                 <CarouselSkills />
                             </div>
                         </div>
                     </div>
-                </section>
-            </div>
+                </section >
+            </div >
         );
     }
 }
