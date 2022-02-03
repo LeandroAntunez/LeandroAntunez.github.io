@@ -6,6 +6,8 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    background: rgb(37, 37, 37);
+    color: lightcyan
 }
 
 html {
@@ -90,7 +92,7 @@ section .title::after {
     font-size: 20px;
     color: crimson;
     padding: 0 5px;
-    background: #fff;
+    background: rgb(37, 37, 37);
     transform: translateX(-50%);
 }
 
@@ -136,7 +138,6 @@ section .title::after {
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
