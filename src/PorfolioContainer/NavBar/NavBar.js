@@ -19,7 +19,7 @@ function NavBar() {
                         <li><a href='#contact' onClick={toggleClass}>Contáctame</a></li>
                     </ul>
                     <div className='menu-btn' onClick={toggleClass}>
-                        <i class={isActive ? "fas fa-bars active" : "fas fa-bars"}></i>
+                        <i className={isActive ? "fas fa-bars active" : "fas fa-bars"}></i>
                     </div>
                 </div>
             </nav>

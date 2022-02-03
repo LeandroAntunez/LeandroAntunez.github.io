@@ -44,39 +44,39 @@ class ContactMe extends React.Component {
   render() {
     return (
       <div>
-        <section class="contact" id="contact">
-          <div class="max-width">
-            <h2 class="title">Contáctame</h2>
-            <div class="contact-content">
-              <div class="column left">
-                <div class="text">Contáctame</div>
+        <section className="contact" id="contact">
+          <div className="max-width">
+            <h2 className="title">Contáctame</h2>
+            <div className="contact-content">
+              <div className="column left">
+                <div className="text">Contáctame</div>
                 <p>Puedes enviarme un email a la direccion que indica debajo, o simplemente completar el formulario de la derecha.</p>
-                <div class="icons">
-                  <div class="row">
-                    <i class="fas fa-user"></i>
-                    <div class="info">
-                      <div class="head">Nombre</div>
-                      <div class="sub-title">Leandro Antúnez</div>
+                <div className="icons">
+                  <div className="row">
+                    <i className="fas fa-user"></i>
+                    <div className="info">
+                      <div className="head">Nombre</div>
+                      <div className="sub-title">Leandro Antúnez</div>
                     </div>
                   </div>
-                  <div class="row">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div class="info">
-                      <div class="head">Ubicación</div>
-                      <div class="sub-title">Buenos Aires, Argentina</div>
+                  <div className="row">
+                    <i className="fas fa-map-marker-alt"></i>
+                    <div className="info">
+                      <div className="head">Ubicación</div>
+                      <div className="sub-title">Buenos Aires, Argentina</div>
                     </div>
                   </div>
-                  <div class="row">
-                    <i class="fas fa-envelope"></i>
-                    <div class="info">
-                      <div class="head">Email</div>
-                      <div class="sub-title">leandro_antunez@outlook.com</div>
+                  <div className="row">
+                    <i className="fas fa-envelope"></i>
+                    <div className="info">
+                      <div className="head">Email</div>
+                      <div className="sub-title">leandro_antunez@outlook.com</div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="column right">
-                <div class="text">Escribeme</div>
+              <div className="column right">
+                <div className="text">Escribeme</div>
                 <form onSubmit={this.handleSubmit} id="contact-form">
                   <div className='fields'>
                     <div className='field name'>

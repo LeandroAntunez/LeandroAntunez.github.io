@@ -30,7 +30,7 @@ section {
     transform: translateX(-50%);
 }
 .title::after {
-    content: "Subidos a mi repositorio";
+    content: "De mi repositorio";
     position: absolute;
     bottom: -12px;
     left: 50%;

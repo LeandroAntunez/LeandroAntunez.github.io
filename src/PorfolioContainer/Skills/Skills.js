@@ -5,11 +5,11 @@ class Skills extends React.Component {
     render() {
         return (
             <div>
-                <section class="skills" id="skills">
-                    <div class="max-width">
-                        <h2 class="title">Mis Habilidades</h2>
-                        <div class="skills-content">
-                            <div class='column left'>
+                <section className="skills" id="skills">
+                    <div className="max-width">
+                        <h2 className="title">Mis Habilidades</h2>
+                        <div className="skills-content">
+                            <div className='column left'>
                                 <h2>Habilidades blandas.</h2>
                                 <p>
                                     <ul className='list-group'>
@@ -21,7 +21,7 @@ class Skills extends React.Component {
                                     </ul>
                                 </p>
                             </div>
-                            <div class="column right">
+                            <div className="column right">
                                 <CarouselSkills />
                             </div>
                         </div>

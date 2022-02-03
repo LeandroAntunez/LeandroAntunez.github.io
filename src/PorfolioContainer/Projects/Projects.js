@@ -20,7 +20,7 @@ class Projects extends Component {
                 <section className='projects' id='projects'>
                     <div className='max-width'>
                         <div className='projects'>
-                            <h2 className='title'>Mis Proyectos</h2>
+                            <h2 className='title'>Proyectos</h2>
                             <Carousel itemsToShow={2}>
                                 {items.map(item =>
                                     <div key={item.id}>{item.title}</div>)}

@@ -61,19 +61,17 @@ class CarouselSkills extends Component {
             <div>
                 <Carousel itemsToShow={1}>
                     {items.map(item =>
-                        <div key={item.id}>
+                        <div>
                             <h2 className='text'>{item.title}</h2>
-                            <ul>
                                 {item.skills.map(s =>
-                                    <div class="bars">
+                                    <div className="bars">
                                         <div className='info'>
                                             <span>{s.name}</span>
-                                            <span> {s.percentage}</span>
+                                            <span>{s.percentage}</span>
                                         </div>
-                                        <div class={'line ' + s.name.toLocaleLowerCase()}></div>
+                                        <div className={'line ' + s.name.toLocaleLowerCase()}></div>
                                     </div>
                                 )}
-                            </ul>
                         </div>
                     )
                     }
