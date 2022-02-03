@@ -1,19 +1,44 @@
 import React, { Component } from 'react';
 import './Projects.css';
 import Carousel from 'react-elastic-carousel';
+import ProjectCard from './ProjectCard';
 
 class Projects extends Component {
     state = {
         items: [
-            { id: 1, title: 'Proyecto #1' },
-            { id: 2, title: 'Proyecto #2' },
-            { id: 1, title: 'Proyecto #3' },
-            { id: 1, title: 'Proyecto #4' }
+            {
+                id: 1,
+                title: 'Amozon',
+                description: 'Administra una tienda de libros.',
+                tags: 'React, HTML, CSS, Javascript',
+                link: 'https://leandroantunez-amozon-bookadmin.netlify.app/'
+            },
+            {
+                id: 2,
+                title: 'Buscador de Pareja',
+                description: 'Colorida página para la búsqueda de personas solteras.',
+                tags: 'HTML, CSS, Javascript',
+                link: 'https://leandroantunez-datting-app.netlify.app/'
+            },
+            {
+                id: 3,
+                title: 'Lista de actividades',
+                description: 'Organiza tus quehaceres pendientes con esta página.',
+                tags: 'React, HTML, Javascript',
+                link: 'https://leandroantunez-react-todo.netlify.app/'
+            },
+            {
+                id: 4,
+                title:
+                    'Proyecto #4',
+                description: '',
+                tags: '',
+                link: ''
+            }
         ]
     }
 
     render() {
-        const { items } = this.state;
 
         return (
             <div>
@@ -22,8 +47,8 @@ class Projects extends Component {
                         <div className='projects'>
                             <h2 className='title'>Proyectos</h2>
                             <Carousel itemsToShow={2}>
-                                {items.map(item =>
-                                    <div key={item.id}>{item.title}</div>)}
+                                {this.state.items.map(item =>
+                                    <ProjectCard {...item} />)}
                             </Carousel>
                         </div>
                     </div>
