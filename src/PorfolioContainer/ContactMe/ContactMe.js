@@ -50,7 +50,7 @@ class ContactMe extends React.Component {
             <div className="contact-content">
               <div className="column left">
                 <div className="text">Contáctame</div>
-                <p>Puedes enviarme un email a la dirección que indica debajo, o simplemente completar el formulario de la derecha.</p>
+                <p>Puedes enviarme un email a la dirección que indica debajo, o simplemente completar el formulario.</p>
                 <div className="icons">
                   <div className="row">
                     <i className="fas fa-user"></i>
@@ -76,24 +76,24 @@ class ContactMe extends React.Component {
                 </div>
               </div>
               <div className="column right">
-                <div className="text">Escribeme</div>
+                <div className="text">Escríbeme</div>
                 <form onSubmit={this.handleSubmit} id="contact-form">
                   <div className='fields'>
                     <div className='field name'>
-                      <input placeholder="Tu nombre" type="text" name="user_name" onChange={this.handleChange} value={this.state.user_name} required />
+                      <input class="form-control" placeholder="Nombre completo" type="text" name="user_name" onChange={this.handleChange} value={this.state.user_name} required />
                     </div>
                     <div className='field email'>
-                      <input placeholder="ejemplo.correo@email.com" type="email" name="user_email" onChange={this.handleChange} value={this.state.user_email} required />
+                      <input class="form-control" placeholder="tu.correo@email.com" type="email" name="user_email" onChange={this.handleChange} value={this.state.user_email} required />
                     </div>
                   </div>
                   <div className='field subject'>
-                    <input type="text" placeholder='Asunto' />
+                    <input class="form-control" type="text" placeholder='Asunto' />
                   </div>
                   <div className='field textarea'>
-                    <textarea placeholder="Un mensaje" name="message" onChange={this.handleChange} value={this.state.message} required />
+                    <textarea class="form-control" placeholder="Un mensaje" name="message" onChange={this.handleChange} value={this.state.message} required />
                   </div>
                   <div className='button'>
-                    <button type="submit" value="Submit">Enviar mensaje</button>
+                    <button type="submit" value="Submit">Enviar</button>
                   </div>
                 </form>
               </div>
