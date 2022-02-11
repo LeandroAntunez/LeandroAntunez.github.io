@@ -33,10 +33,10 @@ class Projects extends Component {
                 {
                     id: 4,
                     title:
-                        'Proyecto #4',
-                    description: '',
-                    tags: '',
-                    link: ''
+                        'Juego de la Memoria',
+                    description: 'Un juego donde pone a prueba tu memoria a corto plazo.',
+                    tags: 'HTML, CSS, JS',
+                    link: 'https://leandroantunez-memory-game.netlify.app/'
                 }
             ]
         }
