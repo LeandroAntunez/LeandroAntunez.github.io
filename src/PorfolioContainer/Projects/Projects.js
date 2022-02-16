@@ -37,6 +37,14 @@ class Projects extends Component {
                     description: 'Un juego donde pone a prueba tu memoria a corto plazo.',
                     tags: 'HTML, CSS, JS',
                     link: 'https://leandroantunez-memory-game.netlify.app/'
+                },
+                {
+                    id: 5,
+                    title:
+                        'Lista de Compras',
+                    description: 'Una lista interactiva de productos comprados hasta el momento.',
+                    tags: 'Angular, HTML, CSS, TypeScript',
+                    link: 'https://leandroantunez-shoppinglist.netlify.app/'
                 }
             ]
         }
