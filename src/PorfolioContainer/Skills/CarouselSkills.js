@@ -22,6 +22,7 @@ class CarouselSkills extends Component {
                 id: 2, title: 'Desarrollador Backend',
                 skills:
                     [
+                        { name: 'Java', percentage: 80 },
                         { name: 'MySQL', percentage: 70 },
                         { name: 'NodeJs', percentage: 80 },
                         { name: 'Ruby - on Rails', percentage: 50 },

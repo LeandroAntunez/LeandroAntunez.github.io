@@ -34,6 +34,10 @@
     width: 90%;
 }
 
+.skills-content .right .java::before {
+    width: 80%;
+}
+
 .skills-content .right .mysql::before {
     width: 70%;
 }
